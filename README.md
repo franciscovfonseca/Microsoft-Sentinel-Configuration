@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-<img width="1000" src="https://github.com/user-attachments/assets/069c7c79-c76d-4cba-a81f-a99db273d261" alt="Banner"/>
+<img width="1000" src="https://github.com/user-attachments/assets/d8f10eb7-e95b-447e-a679-f1d2c3e63863" alt="Banner"/>
 <br />
 <br />
 
@@ -46,7 +46,7 @@ In the **Azure Portal** ➜ go to **Microsoft Sentinel** ➜ select our **Log An
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/36df51b2-cdcd-42e7-ad55-d26078edda07)
+![azure portal](https://github.com/user-attachments/assets/7049e934-297e-4fd1-aaad-5deef6344015)
 
 <br>
 
@@ -56,7 +56,7 @@ So click on the **Workbooks** blade ➜ and then ➕ **Add Workbook**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/36df51b2-cdcd-42e7-ad55-d26078edda07)
+![azure portal](https://github.com/user-attachments/assets/c806a604-7bf6-4f32-b5dc-1da9416cd576)
 
 <h2></h2>
 
@@ -76,7 +76,7 @@ Click ✏️ **Edit**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/9d44e9cd-77b8-41f4-93a7-2067a752e545)
+![azure portal](https://github.com/user-attachments/assets/04809ee5-30cf-4be9-9657-96b40d8570c5)
 
 <br>
 
@@ -84,11 +84,11 @@ There's 2 Elements in the default workbook ➜ so we'll 🗑️ **Remove** them 
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/343aafd9-44d7-4b59-bcda-b031db117d2b)
+![azure portal](https://github.com/user-attachments/assets/bd89e261-7b56-40a3-b5f4-67527548db14)
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/202e60b2-e41e-4278-a423-c2b64b411707)
+![azure portal](https://github.com/user-attachments/assets/0713cab8-6708-4559-a1b7-95f32931aa2c)
 
 <br>
 
@@ -96,7 +96,7 @@ Then we're going to click on ➕ **Add** ➜ and we're going to 𝄜 **Add query
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/4ab29302-b055-44cb-ba8e-7cb881f5b0c7)
+![azure portal](https://github.com/user-attachments/assets/00d4e479-6c2b-4a15-9f74-318c9859f61d)
 
 <br>
 
@@ -104,7 +104,7 @@ We'll then click the **</> Advanced Editor blade**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/d413801a-f244-417b-b0e1-98123d4fc183)
+![azure portal](https://github.com/user-attachments/assets/63fdc5d4-3d7c-446a-b534-83432bebd22d)
 
 <br>
 
@@ -114,7 +114,7 @@ Copy the **JSON** text.
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/f3af9386-d113-4c36-ac3f-02f2729f170a)
+![azure portal](https://github.com/user-attachments/assets/e0fd9e66-7334-4611-a0c6-5bdba55f5b11)
 
 <br>
 
@@ -124,7 +124,7 @@ Then click ✔️ **Done Editing** down bellow
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/17ab1229-7a1b-46d8-bc07-a5eb7fa9069e)
+![azure portal](https://github.com/user-attachments/assets/9aaa0e83-9d8a-490a-aa5a-410737e21ecb)
 
 <br>
 
@@ -140,7 +140,7 @@ Click **"Apply"**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/da6e470e-b63b-401d-8b97-c9d2883ad25a)
+![azure portal](https://github.com/user-attachments/assets/200974a3-3b28-41d9-82ff-a819e9a5c657)
 
 <br>
 
@@ -148,7 +148,7 @@ Click **"Apply"**
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/63f4d693-f9a9-44b1-99cd-70b408a5b8a1)
+![azure portal](https://github.com/user-attachments/assets/ddd23b87-fec7-464c-8e3c-72e6b77bcb01)
 
 <br>
 
@@ -168,7 +168,7 @@ We'll click on ➕ **Add Workbook** ➜ follow the same process ➜  and use the
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/425a8c12-e647-40d9-aa56-4fa965ea75da)
+![azure portal](https://github.com/user-attachments/assets/ddc1fe5d-41d6-40da-bd05-4a4944713158)
 
 <br>
 
@@ -182,11 +182,11 @@ From inside the **Workbook** ➜ click on ✏️ **Edit** ➜ and then **↑ Edi
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/d115a623-3ec5-4584-993f-ec5ea9f48bf4)
+![azure portal](https://github.com/user-attachments/assets/10465b3c-25fb-460a-b6c3-29498b002aed)
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/d5b9d372-f6b4-49f2-8674-12adb50aa0a2)
+![azure portal](https://github.com/user-attachments/assets/5262c279-be91-4257-a9fd-ad75076439f5)
 
 <br>
 
@@ -196,7 +196,7 @@ And then we can see the actual **"Log Analytics Workspace Logs Query"** that's b
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/0c976a36-0991-4679-aea1-22588d9b24f6)
+![azure portal](https://github.com/user-attachments/assets/9eadd94c-5998-48e0-8579-9e58355ef924)
 
 <br>
 
@@ -204,7 +204,7 @@ We'll copy this Query from under the ⚙️ **Settings"** blade:
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/0c976a36-0991-4679-aea1-22588d9b24f6)
+![azure portal](https://github.com/user-attachments/assets/9baa1292-e81b-4f7c-b3a4-a2923e843608)
 
 <br>
 
@@ -220,7 +220,7 @@ For example ➜ this is the Query from the **Windows RDP/SMB Authentication Fail
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/25d8d89c-1a6c-4158-8400-35c46995a395)
+![azure portal](https://github.com/user-attachments/assets/ed015807-3c97-4def-8d0d-a58b227104b6)
 
 <br>
 
@@ -248,7 +248,7 @@ Back in the **Azure Portal** ➜ go to **Microsoft Sentinel** ➜ and click on t
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/577a0b79-d93b-466e-a365-9d1f6107a07e)
+![azure portal](https://github.com/user-attachments/assets/13b81385-ded0-4e2c-810e-4e2505bdf7c5)
 
 <br>
 
@@ -258,7 +258,7 @@ Download the **Raw JSON File** and Save it.
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/f075d305-ac55-47d5-85d0-a0e80f4b7022)
+![azure portal](https://github.com/user-attachments/assets/92f28c08-18f1-4323-bab9-ac3961a8162c)
 
 <br>
 
@@ -266,7 +266,7 @@ Back in **Microsoft Sentinel** ➜ click on **Import** to upload the **JSON File
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/8085ebbc-055d-48e6-bce8-e7147d0b8ef3)
+![azure portal](https://github.com/user-attachments/assets/445adcb4-2ec1-465b-8ff0-c018bed65d88)
 
 <br>
 
@@ -274,7 +274,7 @@ Back in **Microsoft Sentinel** ➜ click on **Import** to upload the **JSON File
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/26168fbd-25bd-4b1f-b5cd-23cce068badd)
+![azure portal](https://github.com/user-attachments/assets/7ac23696-17d7-4ea9-9be4-28f628173da0)
 
 <br>
 
@@ -415,7 +415,7 @@ After each Attack ➜ wait 10-20 minutes ➜ then check **Sentinel** to see if y
 
 <br>
 
-![azure portal](https://github.com/user-attachments/assets/00cef135-106c-4f4e-a5d0-f68e2b345c14)
+![azure portal](https://github.com/user-attachments/assets/bc25121d-158f-4702-bd45-f96bc5095f36)
 
 <br>
 

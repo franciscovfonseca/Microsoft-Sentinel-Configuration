@@ -13,12 +13,12 @@ In this Lab we're going to **Create 4 different Maps** that highlight where diff
 
 <br>
 
-We're going to Create the following 4 Maps:
+🌍 We're going to Create the following 4 Maps:
 
 | **Map**                   | **Use Case**                                |
 | ------------------------------ | ------------------------------------------ |
-| 1️              | Failed Authentication against **Windows WMs** (RDP / SMB / General Authentication Failures) |
-| 2️                | Failed Authentication against **Linux VM** (SSH)                |
+| 1️              | Failed Authentication against **Windows VMs** (RDP / SMB / General Authentication Failures) |
+| 2️                | Failed Authentication against **Linux VMs** (SSH)                |
 | 3️     | Failed Authentication to the **Microsoft SQL Server** (inside our Windows VM)                    |
 | 4️  | Malicious Inbound Flows for the **Network Security Groups**                    |
 
@@ -283,7 +283,7 @@ Back in **Microsoft Sentinel** ➜ click on **Import** to upload the **JSON File
 <h2></h2>
 
 <details close> 
-<summary> <h2>3️⃣ Attack Traffic Generation (Simulated Attacks)</h2> </summary>
+<summary> <h2>3️⃣ Understanding and Triggering Sentinel Alerts</h2> </summary>
 <br>
 
 <br>
@@ -294,29 +294,32 @@ Back in **Microsoft Sentinel** ➜ click on **Import** to upload the **JSON File
 > 
 > In this final stage of the lab ➜ we're going to explore some of the **Custom Analytics Rules / Alerts** that we created in **Sentinel**.
 > 
-> We'll look at the **Queries** that make those Events ➜ and try to go through and manually trigger at least 6 of them.
+> We'll look at the **Queries** that make those Events ➜ and try to go through and **Manually Trigger** at least 6 of them.
 >   
-> This will allow us to understand how the Analytics Rules & the KQL actually work.
+> This will allow us to understand how the **Analytics Rules & the KQL Queries actually work.
 > 
 >   </details>
 
 <br>
 
-To test your alerts and incidents rule configuration ➜ simulate some attacks on the VMs and see if they show up in Sentinel (generate alerts and incidents).
+To Test your **Alerts & Incident Rule Configuration**:
 
-⚠️ We have to make sure these work before the first observation period.
+- We'll **Simulate some Attacks on the VMs** and see if they show up in Sentinel (Generate Alerts & Incidents).
 
 <br>
 
-Here are some Tests to Run:
+<br>
+
+### ➡️ Here are some Tests to Run:
 
 <br>
 
 #### ❶ Trigger AAD Brute Force Success:
 
-- Simulate brute force success against Azure AD with your attacker account (from attack-vm).
+- Simulate **Brute-Force Success against Azure AD** with your Attacker Account ➜ from within the ```attack-vm```.
 
-- Either use PowerShell or an incognito window to fail 10-11 consecutive logins, followed by one successful login.
+- In an Incognito Window ➜ Open the **Azure Portal** ➜ and Fail 10 Consecutive Logins ➜ followed by 1 Successful Login.
+
 
 <br>
 
@@ -324,11 +327,11 @@ Here are some Tests to Run:
 
 <br>
 
-#### ❷ Trigger MSSQL Brute Force Attempt:
+#### ❷ Trigger MS SQL Brute Force Attempt:
 
 - We'll use the ```attack-vm``` for this one.
 
-- Use ***PowerShell*** or ***SSMS*** to simulate **Brute Force Attempt against your SQL Server** by failing 10 Consecutive Logins.
+- Open **SSMS** and Simulate **Brute Force Attempt against the SQL Server** by failing 10 Consecutive Logins.
 
 <br>
 
@@ -338,9 +341,19 @@ Here are some Tests to Run:
 
 #### ❸ Trigger Malware Outbreak:
 
-- In ```windows-vm``` generate a **Malware Alert** by using ***PowerShell*** to create 1 or more **EICAR Files**.
+- From within the ```windows-vm``` ➜ Generate a **Malware Alert** by using ***PowerShell*** to create 1 or more **EICAR Files**.
 
-- 💡 You can also do this Manually by creating a Text File with an **EICAR String** in it.
+- [Malware-Generator-EICAR.ps1](https://github.com/joshmadakor1/Cyber-Course/blob/main/Attack-Scripts/Malware-Generator-EICAR.ps1)
+
+<br>
+
+>   <details close> 
+>   
+> **<summary> 💡</summary>**
+> 
+> This can also be done Manually by creating a Text File with an **EICAR String** in it.
+> 
+>   </details>
 
 <br>
 
@@ -350,7 +363,9 @@ Here are some Tests to Run:
 
 #### ❹ Trigger Possible Privilege Escalation (AKV Critical Credential Retrieval or Update):
 
-- Manually read our **Key Vault Secret** ```Tenant-Global-Admin-Password``` in the Azure portal.
+- Manually Read our **Key Vault Secret** ```Tenant-Global-Admin-Password``` in the Azure Portal.
+
+- Observe the **Incidents** in Microsoft Sentinel.
 
 <br>
 
@@ -362,6 +377,8 @@ Here are some Tests to Run:
 
 - Manually Enable & Disable the ```windows-vm``` **Firewall**.
 
+- Observe the **Incidents** in Microsoft Sentinel.
+
 <br>
 
 <h2></h2>
@@ -370,7 +387,9 @@ Here are some Tests to Run:
 
 #### ❻ Trigger Excessive Password Resets:
 
-- Reset a **User's Password** in the Azure portal 10 times.
+- Reset a **User's Password** in the Azure Portal 10 times.
+
+- Observe the **Incidents** in Microsoft Sentinel.
 
 <br>
 
@@ -378,7 +397,7 @@ Here are some Tests to Run:
 
 <br>
 
-After each attach, wait 10-20 minutes ➜ then check Sentinel to see if you have any incidents.
+After each Attack ➜ wait 10-20 minutes ➜ then check **Sentinel** to see if you have any **Incidents**.
 
 <br>
 
@@ -392,7 +411,7 @@ After each attach, wait 10-20 minutes ➜ then check Sentinel to see if you have
 
 <br>
 
-### ➡️ Incidents in Sentinel after Simulating Some Attacks:
+### ➡️ Incidents in Sentinel AFTER Simulating Some Attacks:
 
 <br>
 

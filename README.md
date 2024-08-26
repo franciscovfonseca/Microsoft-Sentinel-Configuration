@@ -15,13 +15,12 @@ In this Lab we're going to **Create 4 different Maps** that highlight where diff
 
 We're going to Create the following 4 Maps:
 
-1. Failed Authentication against **Windows WMs** (RDP / SMB / General Authentication Failures)
-
-2. Failed Authentication against **Linux VM** (SSH)
-
-3. Failed Authentication to the **Microsoft SQL Server** (inside our Windows VM)
-
-4. Malicious Inbound Flows for the **Network Security Groups**
+| **Map**                   | **Use Case**                                |
+| ------------------------------ | ------------------------------------------ |
+| 1️              | Failed Authentication against **Windows WMs** (RDP / SMB / General Authentication Failures) |
+| 2️                | Failed Authentication against **Linux VM** (SSH)                |
+| 3️     | Failed Authentication to the **Microsoft SQL Server** (inside our Windows VM)                    |
+| 4️  | Malicious Inbound Flows for the **Network Security Groups**                    |
 
 <br>
 

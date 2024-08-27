@@ -32,7 +32,7 @@ In this Lab we're going to **Create 4 different Maps** that highlight where diff
 
 <br>
   
-> We're going to **Create 4 different Workbooks in Microsoft Sentinel**.
+> We're going to set up **4 different Workbooks in Microsoft Sentinel**.
 > 
 > These will show different types of **Malicious Traffic** from around the World, targeting our Resources.
 > 
